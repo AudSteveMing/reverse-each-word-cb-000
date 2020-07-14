@@ -9,7 +9,7 @@
 # end
 
 
-reverse_each_word("Hello there, and how are you?")
+# reverse_each_word("Hello there, and how are you?")
   #=> "olleH ,ereht dna woh era ?uoy"
 def reverse_each_word(phrase)
   reverse_array = []
@@ -19,4 +19,3 @@ new_array = phrase.split(" ") #["hello", "there,", "and" ...]
 end
 reverse_array.join(" ")
 end
-  
